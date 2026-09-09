@@ -6,7 +6,8 @@ This quantitative backtesting engine evaluates algorithmic trading strategies ag
 Initially, the model relied on the front-end visualization layer for calculating compounded portfolio growth. However, iterating row-by-row logic over a 2.7M+ row dataset created severe rendering bottlenecks. To optimize compute efficiency, the mathematical engine was completely remade. Heavy aggregations and logarithmic compounding formulas were migrated directly into the database backend, allowing the BI interface to function strictly as a high-speed, interactive visualization layer achieving millisecond render times.
 
 ### Dashboard Demonstration
-<img width="2328" height="1312" alt="Recording 2026-08-27 090406" src="https://github.com/user-attachments/assets/8600f39d-2ded-4948-b7c8-120d7434e255" />
+<img width="2324" height="1316" alt="Recording 2026-09-08 224952" src="https://github.com/user-attachments/assets/97f1c373-0d0f-49c5-b1a9-f1b9e94a8853" />
+
 
 
 
