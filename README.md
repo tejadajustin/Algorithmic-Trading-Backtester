@@ -1,4 +1,4 @@
-# Algorithmic Backtester and Quantitative Analysis Engine
+# Algorithmic Trading Backtester
 
 ## Overview
 This quantitative backtesting engine evaluates algorithmic trading strategies against historical market data. 
@@ -15,7 +15,7 @@ The engine evaluates a continuous state-based model using moving average crossov
 * **Trigger:** 50-Day & 200-Day Simple Moving Average (SMA) crossover.
 * **Buy Rule:** 50-Day SMA crosses above the 200-Day SMA (*Golden Cross*).
 * **Sell Rule:** 50-Day SMA crosses below the 200-Day SMA (*Death Cross*).
-* **Timing:** A T+1 execution offset is applied to all signals to prevent using future data (*Look Ahead Bias*).
+* **Timing:** A T+1 execution offset is applied to all signals to prevent using future data (Look Ahead Bias).
 * **Comparison:** The algorithmic strategy is measured against a standard Buy & Hold strategy. Both of these strategies start with a $10,000 capital using split-adjusted returns.
 
 ## Benchmarking & Risk Analysis
